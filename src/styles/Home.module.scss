@@ -1,0 +1,32 @@
+.main {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  text-align: center;
+  cursor: default;
+
+  img {
+    padding: 0;
+  }
+  .text {
+    text-align: left;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  a {
+    text-align: center;
+    transition: color 0.7s;
+
+    &:hover {
+      color: var(--light-green);
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    Button {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.select {
+  padding: 8px 16px;
+  border-radius: 0.3rem;
+  font-family: "Ruda";
+  font-weight: bold;
+  color: var(--black);
+  background-color: var(--white);
+}

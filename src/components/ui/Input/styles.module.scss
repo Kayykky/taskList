@@ -1,0 +1,22 @@
+.input, .textarea{
+    margin-bottom: 1rem;
+    width: 350px;
+    border: 0;
+    border-radius: 20px;
+    background-color: var(--grey);
+    color: var(--black);
+    padding: 1rem;
+    resize: none;
+}
+
+.input{
+    height: 40px;
+}
+
+.textarea{
+    height: 100px;
+}
+
+.input::placeholder, .textarea::placeholder{
+    color: rgba(0, 0, 0, 0.8);
+}
